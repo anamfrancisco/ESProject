@@ -6,3 +6,13 @@ Comentários como lembrete - Rodrigo Jacob
 Sem comentários que expliquem o código - José Pereira
   
   De facto conseguimos interpretar o código com mais facilidade com o auxílio de pequenos comentários que nos orientem.
+  
+Método com parâmetro não utilizado - Rodrigo Jacob
+
+  É óbvio que não faz qualquer sentido receber um parâmetro numa função e nunca o chegar a utilizar. Isto acontece muito quando
+  o programador faz o programa a pensar em funcionalidades futuras, é um claro code smell.
+
+Cadeias de mensagem longas - João Amorim
+
+  Qualquer cadeia de caracteres longa deixa quem está a ler o código confuso, não acho um code smell tão óbvio, mas depois de ver
+  faz sentido, porque existem maneiras de fazer isto que são muito mais intuitivas para qualquer pessoa que esteja a ler o código.
