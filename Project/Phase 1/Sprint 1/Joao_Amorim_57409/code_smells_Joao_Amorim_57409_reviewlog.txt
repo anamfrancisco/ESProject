@@ -1,0 +1,10 @@
+João Amorim Code Smells Reviews-
+
+"Não uso de try-catch para detetar possíveis erros" (DesktopAdapter) José Perreira-
+Este está um pouco desenvolvido falta explicar mais porque de achares que nesta situação isto é um code smells, por exemplo o não tratamento de erros pode tornar o código pouco prático e inflexivel.
+
+"Comentários como lembrete" (CustomPropertyMapping) Rodrigo-
+Não diria que ter código como lembrete é um code smells, há vezes em que até dá bastante jeito, não acho que os comentários em sí são o code smells mas sim a maneira como está a ser usados no meio do método.
+
+"Métodos diferentes com o mesmo nome"  (GanttDaysOff) Ana-
+Neste caso até nao faz muito mal os métodos terem o mesmo nome pois fazem a mesma coisa simplesmente recebem tipos de datas diferentes, mas sim convem ter algo no nome do método para diferenciá-los.
