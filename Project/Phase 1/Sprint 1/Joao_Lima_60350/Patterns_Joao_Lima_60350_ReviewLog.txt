@@ -1,1 +1,10 @@
+Patterns João Lima
 
+Builder (GPCalanderBase.java) - João A.
+- Não tem construtor mas inicializa as variáveis através dos metodos, portanto está bem identificado
+
+Abstract Factory (StylesheetExporterBase) - José Pereira
+- Está bem identificado, já que é uma classe abstrata mas que não precisa de especificar subclasses
+
+Facade (ProjectFileExporter.java) - Rodrigo
+- É uma clara evidência de um facade, já que o metodo parece simples, mas dentro do metodo tem outros metodos bastante complexos
