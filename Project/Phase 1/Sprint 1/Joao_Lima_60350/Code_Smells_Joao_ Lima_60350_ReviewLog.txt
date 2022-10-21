@@ -1,0 +1,4 @@
+Code Smells João Lima
+
+ExporterToHTML.java - José Pereira
+- Para complementar o comentário dado, também acho que a classe tem metodos muito extensos e complicados, que se pode resolver usando metodos auxiliares e comentários para ajudar na leitura
