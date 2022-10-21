@@ -1,1 +1,12 @@
 Rodrigo Jacob Code Smell Reviews
+
+Joao_Lima_60350.docx (code smells) :
+
+"Classe Inútil" (WebStartIDClass)
+Este code smell é claro, a classe está vazia e é inútil.
+
+"Método longo" (ProjectFileImporter)
+O método é demasiado longo, sendo assim um code smell. Podia ter acrescentado uma solução para o tornar mais pequeno.
+
+"Dead Code" (ProjectFileExporter)
+Código comentado, devia ser removido.
