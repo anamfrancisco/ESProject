@@ -1,2 +1,6 @@
 Rodrigo Jacob GoF Design Patterns Reviews
 
+Joao_Lima_60350.docx (GoF patterns) :
+
+Builder (IcsFileImporter)
+A classe apresenta padrão builder, pois não tem construtor, mas sim métodos que inicializam as suas varáveis.
