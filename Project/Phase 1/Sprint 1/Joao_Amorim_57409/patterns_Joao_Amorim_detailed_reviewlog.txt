@@ -1,0 +1,14 @@
+João Amorim Gof Design Patterns Reviews-
+
+
+Factory OffsetBuilderImpl.java Ana-
+A identificação do design pattern está bom, podes é adcionar mais ao code snippet para demonstrar esse método a ser usado como meio para criar um objeto por exemplo.
+
+
+Facade (ProjectFileExporter.java) Rodrigo-
+Facade adequasse a este code snippet, falta é uma explicação concisa de o porque de se adequar a este exemplo, podes dizer devido ao facto de estar estar a criar instancias de objectos que representam partes mais complexas do sistema consequentemente está facilitar o uso dessas partes assim sendo uma Facade.
+
+Builder (IcsFileImporter) João L.-
+Não acho que os métodos estão ai para mudar objeto mas mais como método alternativo de inacialização das suas variáveis neste caso só serve para duas variáveis myFile, myEvents e até certo ponto com myPanel(sendo que setActive adciona objectos ao myPanel não o inicializa).
+
+
