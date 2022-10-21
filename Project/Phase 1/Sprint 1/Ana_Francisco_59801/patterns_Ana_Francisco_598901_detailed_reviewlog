@@ -1,8 +1,12 @@
-Comentários como lembrete - Rodrigo Jacob
+Diria que no geral podíamos ter explorado um pouco mais os outros padrões GoFs existentes, no entanto devido à pressão compreendo 
+que os mais seguros estejam em maioria.
 
-  Isto não tem de ser necessariamente mau, é positivo se levar o programador a relembrar-se de alguma situação no código 
-  de forma a resolvê-la no futuro, apesar de haverem melhores formas de deixar isto descrito. 
+Builder, Canvas.java - Rodrigo Jacob
+
+  Acho que podias ter dado uma pequena justificação e desta forma não seria necessário representar toda a classe.
   
-Sem comentários que expliquem o código - José Pereira
-  
-  De facto conseguimos interpretar o código com mais facilidade com o auxílio de pequenos comentários que nos orientem.
+Facade, TimeUnitImpl.java - João Amorim
+
+  Da maneira como interpretei o padrão Facade, pensei que este foi mais direccionado a métodos em específico e não a construtores 
+  de classes, que é o que representas.
+ 
