@@ -5,3 +5,6 @@ ExporterToHTML.java - José Pereira
 
 AlwaysWorkingTimeCalendarImpl.java- Ana
 - Para além de ter metodos com parâmetros inúteis, também contém metodos em si, inuteis, Ex:CalendarEvent; que a única função é devolver null
+
+WeekendCalendarImpl.java- Rodrigo
+- No fundo, o facto de haver dead code no meio de um metodo, sem qualquer comentário a descrever o porquê, acaba por "sujar" o código, porque tanto pode ser código que não funciona, ou pode ser uma alternativa para o código atual, entre outras razões...
