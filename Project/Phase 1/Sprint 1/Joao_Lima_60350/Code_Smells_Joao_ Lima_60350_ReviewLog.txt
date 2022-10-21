@@ -2,3 +2,6 @@ Code Smells João Lima
 
 ExporterToHTML.java - José Pereira
 - Para complementar o comentário dado, também acho que a classe tem metodos muito extensos e complicados, que se pode resolver usando metodos auxiliares e comentários para ajudar na leitura
+
+AlwaysWorkingTimeCalendarImpl.java- Ana
+- Para além de ter metodos com parâmetros inúteis, também contém metodos em si, inuteis, Ex:CalendarEvent; que a única função é devolver null
