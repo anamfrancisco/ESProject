@@ -1,0 +1,35 @@
+Use Case ID - Add a Human Resource.
+Description - Creates a Human resource in the system, this object may have a name, phone number, e-mail, role and a list of the days it pretends to be off, this operation can be canceled.
+Primary actor - Manager.
+
+Use Case ID - Set name.
+Description - Sets a name for the Human resource created, if the name given is null for example the name that is set is a Default in the system.
+Primary actor - Manager.
+
+Use Case ID - Set Phone number.
+Description - Sets a Phone number for the Human resource created.
+Primary actor - Manager.
+
+Use Case ID - Set e-mail.
+Description - Sets a e-mail for the Human resource created.
+Primary actor - Manager.
+
+Use Case ID - Set role.
+Description - Sets a role for the Human resource created, if the role given is null for example the role given will be undefined.
+Primary actor - Manager.
+
+Use Case ID - Set Phone number.
+Description - Sets a Phone number for the Human resource created.
+Primary actor - Manager.
+
+Use Case ID - Set pay rate.
+Description - Sets the rate that the human resource will be paid.
+Primary actor - Manager.
+
+Use Case ID - Change Human Resource.
+Description - Changes a human resource, extends Add Human Resource being able to set name, Phone number, e-mail and role.
+Primary actor - Manager.
+
+Use Case ID - Add off days.
+Description - Adds to the system the days a human resource may want to go on vacation.
+Primary actor - Manager.
