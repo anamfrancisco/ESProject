@@ -15,5 +15,5 @@ Description - Sets a duration for the task created. This duration is set to 1 by
 Primary actor - Manager.
 
 Use Case ID - Set priority.
-Description - Sets the priority for the task created. It is set to Normal by default. Can be changed to lowest, low, high or highest.
+Description - Sets the priority for the task created. It is set to Normal by default. Can be changed to Lowest, Low, High or Highest.
 Primary actor - Manager.
