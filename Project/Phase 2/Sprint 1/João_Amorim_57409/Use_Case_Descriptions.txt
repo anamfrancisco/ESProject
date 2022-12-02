@@ -33,3 +33,7 @@ Primary actor - Manager.
 Use Case ID - Add off days.
 Description - Adds to the system the days a human resource may want to go on vacation.
 Primary actor - Manager.
+
+Use Case ID - Check for conflinct on dates.
+Description - checks if the pretended days off are in conflict with any working days, or in other words days that human resource has tasks to work on.
+Primary actor - Manager.
