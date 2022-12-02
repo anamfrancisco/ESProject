@@ -1,0 +1,109 @@
+Ana Francisco reviews -
+Comentários como lembrete - Rodrigo Jacob
+
+  Isto não tem de ser necessariamente mau, é positivo se levar o programador a relembrar-se de alguma situação no código 
+  de forma a resolvê-la no futuro, apesar de haverem melhores formas de deixar isto descrito. 
+  
+Sem comentários que expliquem o código - José Pereira
+  
+  De facto conseguimos interpretar o código com mais facilidade com o auxílio de pequenos comentários que nos orientem.
+  
+Método com parâmetro não utilizado - Rodrigo Jacob
+
+  É óbvio que não faz qualquer sentido receber um parâmetro numa função e nunca o chegar a utilizar. Isto acontece muito quando
+  o programador faz o programa a pensar em funcionalidades futuras, é um claro code smell.
+
+Cadeias de mensagem longas - João Amorim
+
+  Qualquer cadeia de caracteres longa deixa quem está a ler o código confuso, não acho um code smell tão óbvio, mas depois de ver
+  faz sentido, porque existem maneiras de fazer isto que são muito mais intuitivas para qualquer pessoa que esteja a ler o código.
+
+Diria que no geral podíamos ter explorado um pouco mais os outros padrões GoFs existentes, no entanto devido à pressão compreendo 
+que os mais seguros estejam em maioria.
+
+Builder, Canvas.java - Rodrigo Jacob
+
+  Acho que podias ter dado uma pequena justificação e desta forma não seria necessário representar toda a classe.
+  
+Facade, TimeUnitImpl.java - João Amorim
+
+  Da maneira como interpretei o padrão Facade, pensei que este foi mais direccionado a métodos em específico e não a construtores 
+  de classes, que é o que representas.
+ 
+João Amorim reviews -
+
+"Não uso de try-catch para detetar possíveis erros" (DesktopAdapter) José Perreira-
+Este está um pouco desenvolvido falta explicar mais porque de achares que nesta situação isto é um code smells, por exemplo o não tratamento de erros pode tornar o código pouco prático e inflexivel.
+
+"Comentários como lembrete" (CustomPropertyMapping) Rodrigo-
+Não diria que ter código como lembrete é um code smells, há vezes em que até dá bastante jeito, não acho que os comentários em sí são o code smells mas sim a maneira como está a ser usados no meio do método.
+
+"Métodos diferentes com o mesmo nome"  (GanttDaysOff) Ana-
+Neste caso até nao faz muito mal os métodos terem o mesmo nome pois fazem a mesma coisa simplesmente recebem tipos de datas diferentes, mas sim convem ter algo no nome do método para diferenciá-los.
+
+Factory OffsetBuilderImpl.java Ana-
+A identificação do design pattern está bom, podes é adcionar mais ao code snippet para demonstrar esse método a ser usado como meio para criar um objeto por exemplo.
+
+Facade (ProjectFileExporter.java) Rodrigo-
+Facade adequasse a este code snippet, falta é uma explicação concisa de o porque de se adequar a este exemplo, podes dizer devido ao facto de estar estar a criar instancias de objectos que representam partes mais complexas do sistema consequentemente está facilitar o uso dessas partes assim sendo uma Facade.
+
+Builder (IcsFileImporter) João L.-
+Não acho que os métodos estão ai para mudar objeto mas mais como método alternativo de inacialização das suas variáveis neste caso só serve para duas variáveis myFile, myEvents e até certo ponto com myPanel(sendo que setActive adciona objectos ao myPanel não o inicializa).
+
+João Lima reviews -
+
+ExporterToHTML.java - José Pereira
+- Para complementar o comentário dado, também acho que a classe tem metodos muito extensos e complicados, que se pode resolver usando metodos auxiliares e comentários para ajudar na leitura
+
+AlwaysWorkingTimeCalendarImpl.java- Ana
+- Para além de ter metodos com parâmetros inúteis, também contém metodos em si, inuteis, Ex:CalendarEvent; que a única função é devolver null
+
+WeekendCalendarImpl.java- Rodrigo
+- No fundo, o facto de haver dead code no meio de um metodo, sem qualquer comentário a descrever o porquê, acaba por "sujar" o código, porque tanto pode ser código que não funciona, ou pode ser uma alternativa para o código atual, entre outras razões...
+
+Builder (GPCalanderBase.java) - João A.
+- Não tem construtor mas inicializa as variáveis através dos metodos, portanto está bem identificado
+
+Abstract Factory (StylesheetExporterBase) - José Pereira
+- Está bem identificado, já que é uma classe abstrata mas que não precisa de especificar subclasses
+
+Facade (ProjectFileExporter.java) - Rodrigo
+- É uma clara evidência de um facade, já que o metodo parece simples, mas dentro do metodo tem outros metodos bastante complexos
+
+Ricardo Perreira - 
+
+"Métodos que recebem um parâmetro e não o usam" (AlwaysWorkingTimeCalendarlmpl) – Ana
+- Claramente um code smell, não faz sentido algum passar um parâmetro a um método e não o utilizar no corpo do mesmo.
+
+"Classe Inútil" (WebStartIDClass) –  João L.
+- É de facto uma classe inútil visto que nem para fins de herança serve, pois não está a extender nenhuma outra classe.
+
+"Dead code" (WeekendCalendarImpl) – Rodrigo
+- Código inútil em comentário gera confusão e dificulta a leitura a quem está a programar, assim atrasando o desenvolvimento de software.
+
+Facade WeekendCalendarImpl.java - Ana
+ - Trata-se, de facto, de uma "Facade" pois vamos buscar informação a uma classe auxiliar, podendo assim esconder parte da complexidade existente no sistema.
+ 
+Builder (IcsFileImporter) IcsFileImporter.java - João L.
+ - Uma vez que não existe construtor e estão a utilizar métodos para alterarem as variáveis temos então aqui uma situação de utilização do padrão "Builder".
+
+State (WeekendCalendarImpl.java) - João A.
+ - Como o funcionamento do método em questão varia de acordo com o tipo do dia, é então um caso do padrão "State".
+
+Rodrigo Jacob reviews - 
+
+Joao_Lima_60350.docx (code smells) :
+
+"Classe Inútil" (WebStartIDClass)
+Este code smell é claro, a classe está vazia e é inútil.
+
+"Método longo" (ProjectFileImporter)
+O método é demasiado longo, sendo assim um code smell. Podia ter acrescentado uma solução para o tornar mais pequeno.
+
+"Dead Code" (ProjectFileExporter)
+Código comentado, devia ser removido.
+
+Joao_Lima_60350.docx (GoF patterns) :
+
+Builder (IcsFileImporter)
+A classe apresenta padrão builder, pois não tem construtor, mas sim métodos que inicializam as suas varáveis.
