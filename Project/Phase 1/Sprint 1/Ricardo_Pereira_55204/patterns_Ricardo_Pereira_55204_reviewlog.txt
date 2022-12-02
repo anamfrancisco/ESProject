@@ -1,0 +1,10 @@
+José Pereira GoF Design Patterns Reviews -
+
+Facade WeekendCalendarImpl.java - Ana
+ - Trata-se, de facto, de uma "Facade" pois vamos buscar informação a uma classe auxiliar, podendo assim esconder parte da complexidade existente no sistema.
+ 
+Builder (IcsFileImporter) IcsFileImporter.java - João L.
+ - Uma vez que não existe construtor e estão a utilizar métodos para alterarem as variáveis temos então aqui uma situação de utilização do padrão "Builder".
+
+State (WeekendCalendarImpl.java) - João A.
+ - Como o funcionamento do método em questão varia de acordo com o tipo do dia, é então um caso do padrão "State".
