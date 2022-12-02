@@ -1,0 +1,19 @@
+Use Case ID - Add a task.
+Description - Creates a new task in the system, this object contains information about the task (begin date, duration, priority, progress, etc.)
+Primary actor - Manager.
+
+Use Case ID - Set task name.
+Description - Sets a name for the task created. If the name given is null, will be set with a default name chosen by the system.
+Primary actor - Manager.
+
+Use Case ID - Set begin date.
+Description - Sets a date for the start of the task created. If the date given is null, will be set with the date the task was created.
+Primary actor - Manager.
+
+Use Case ID - Set duration.
+Description - Sets a duration for the task created. This duration is set to 1 by default, unless a different value is introduced.
+Primary actor - Manager.
+
+Use Case ID - Set priority.
+Description - Sets the priority for the task created. It is set to Normal by default. Can be changed to lowest, low, high or highest.
+Primary actor - Manager.
