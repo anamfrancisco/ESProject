@@ -1,0 +1,10 @@
+José Pereira Code Smells reviews:
+
+"Métodos que recebem um parâmetro e não o usam" (AlwaysWorkingTimeCalendarlmpl) – Ana
+- Claramente um code smell, não faz sentido algum passar um parâmetro a um método e não o utilizar no corpo do mesmo.
+
+"Classe Inútil" (WebStartIDClass) –  João L.
+- É de facto uma classe inútil visto que nem para fins de herança serve, pois não está a extender nenhuma outra classe.
+
+"Dead code" (WeekendCalendarImpl) – Rodrigo
+- Código inútil em comentário gera confusão e dificulta a leitura a quem está a programar, assim atrasando o desenvolvimento de software.

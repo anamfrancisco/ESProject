@@ -1,0 +1,21 @@
+Use Case ID - Add a Predecessor Task.
+Description - Creates a Predecessor Task in the system. This object may have a Name, a Type, a Delay and Link Hardness.
+Primary actor - Manager.
+
+Use Case ID - Set Task Name.
+Description - Selects the name of the Predecessor Task. Its name must be one of the existing tasks existing in the system.
+Primary actor - Manager.
+
+Use Case ID - Set Task Type.
+Description - Sets the type of relationship between the predecessor task and the task at hand. Choices vary between "Finish-Start", "Finish-Finish", "Start-Finish" and "Start-Start". For example, the "Finish-Start" type works such that as soon as the predecessor task is finished, then we can start working on the task at hand.
+Primary actor - Manager.
+
+Use Case ID - Set Task Delay.
+Description - Sets a delay to start working on the task at hand, based on the type of relationship between the predecessor task and the task at hand. For example, given a "Finish-Start" relationship, and assuming a task delay of 3 days, then after the predecessor task is completed, one must wait 3 days to start working on the chosen task.
+Primary actor - Manager.
+
+Use Case ID - Set Task's Link Hardness.
+Description - Sets the hardness for the link between a predecessor and the task at hand. If "Link Hardness" == "Strong", then the task at hand starts immediately after its predecessor task finishes, else, if "Link Hardness" == "Rubber", then the starting date of the task at hand is respected.
+Suppose the following: If "task_1" occupies week#1, "task_2" occupies week#3 and "task_3" occupies week#5 such that "task_2" starts when "task_1" finishes, and "task_3" starts when "task_2" finishes, then, it we want it to work this way we must choose "Link Hardness == Rubber", otherwise "task_2" would start the week following "task_1" and "task_3" would start the week following "task_2".
+Primary actor - Manager.
+
