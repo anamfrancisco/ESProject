@@ -1,0 +1,22 @@
+/*** New feature ***/
+
+Use Case ID - Seek help.
+Description - Actor clicks the 'Help' button on the top bar.
+Primary actor - Manager.
+
+Use Case ID - About.
+Description - Opens a pop-up with details about the application version and license.
+Primary actor - Manager.
+
+Use Case ID - ViewLog.
+Description - Opens a pop-up where we can see the details of the last synchronisation session. 
+Primary actor - Manager.
+
+Use Case ID - Recover.
+Description - Recovers the last project the actor was working on.
+Primary actor - Manager.
+
+/*** New feature ***/
+Use Case ID - Tutorial.
+Description - Opens the user's default browser and goes to a url with a description of how the application works.
+Primary actor - Manager.
