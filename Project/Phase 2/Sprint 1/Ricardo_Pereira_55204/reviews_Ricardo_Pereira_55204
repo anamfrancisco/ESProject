@@ -1,3 +1,9 @@
 Ricardo Pereira review of João Amorim's Use Case Diagram:
 
 Overall, the diagram seems complete at first glance, however, it is also possible for the manager to create custom columns for a particular human resource in the app which can be for example date of birth or gender.
+
+
+Ricardo Pereira review of João Amorim's code metrics analysis:
+
+Indeed, the extreme values on the Lines of Code metrics collected can be correlated to the code smells we previously found and also a poor design philosophy, though some of the values present on the chart leave much to be questioned as far as their legitimacy.
+
