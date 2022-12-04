@@ -1,0 +1,8 @@
+Rodrigo Jacob review of Ricardo Pereira's Use Case Diagram:
+
+The diagram seems to be complete, nothing to add.
+
+
+Rodrigo Jacob review of Ricardo Pereira's code metrics analysis:
+
+The metrics show some values outside of what is optimal, could maybe add an explanation for these values being what they are, instead of just explaining what they mean.
