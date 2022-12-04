@@ -1,0 +1,46 @@
+Review de João Lima 60350:
+Use Case de Ana Francisco:
+É um use case simples, embora faltasse o redirect para o manual
+
+Metrics de Ana Francisco:
+Boa explicação dos critérios de "Chidamber and Kemerer metrics" e boa comparação com os estudos feitos pela Nasa
+
+João Amorim review:
+Use case diagram Rodrigo Jacob-
+O diagrama parece bem mas com algumas coisas em falta, podias adcionar use cases para coisas mais opcionais que tem na aplicaçao no momento de criação de uma task e tambem podias meter um use case para
+quando queres introduzir um trabalhador á task que efetivamente depois vai fazer as verificaçoes, que sera outro use case, que introduzimos como a nossa segunda funcionalidade.
+
+Code metrics Rodrigo Jacob:
+Boa identificação dos diferentes valores, boa explicação, acho que so falta do como funciona me geral esse tipo de metric e tambem uma correlação dos valores que obteste e os
+codes smells identificados se possível.
+
+Rodrigo Jacob review of Ricardo Pereira's Use Case Diagram:
+
+The diagram seems to be complete, nothing to add.
+
+Rodrigo Jacob review of Ricardo Pereira's code metrics analysis:
+
+The metrics show some values outside of what is optimal, could 
+
+
+Ricardo Pereira review of João Amorim's Use Case Diagram:
+
+Overall, the diagram seems complete at first glance, however, it is also possible for the manager to create custom columns for a particular human resource in the app which can be for example date of birth or gender.
+
+Ricardo Pereira review of João Amorim's code metrics analysis:
+
+Indeed, the extreme values on the Lines of Code metrics collected can be correlated to the code smells we previously found and also a poor design philosophy, though some of the values present on the chart leave much to be questioned as far as their legitimacy.
+
+
+Review de Ana Francisco de João Lima
+Use_Case_Description:
+Só uma pequena nota. Começa as frases sempre com letra grande ou com letra pequena.
+
+UserStories: 
+Acho que faria mais sentido escrever a palavra "tarefas" em vez de "tasks", porque o texto foi todo escrito em portugês 
+e assim mantemos coerência.
+
+Use_Case_Diagrams:
+Tens um Model vazio no projeto, podes apagar.
+Quanto ao diagrama em si, já te tinha dado feedback e alteraste por isso não tenho nada a acrescentar!
+
