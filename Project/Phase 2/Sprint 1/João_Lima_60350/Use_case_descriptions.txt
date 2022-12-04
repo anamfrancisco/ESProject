@@ -1,0 +1,39 @@
+Use Case ID - choose weekends.
+Description - chooses the weekends
+Primary actor - Manager.
+
+Use Case ID - onOff tasks during weekends.
+Description - the system lets the manager choose if there can be tasks on weekdays or not
+Primary actor - Manager.
+
+Use Case ID - choose holiday calendar.
+Description - the manager gets to choose an holiday calendar for other countries or can even personalised
+Primary actor - Manager.
+
+Use Case ID - Add event.
+Description - add an event to a calendar
+Primary actor - Manager.
+
+Use Case ID - delete event.
+Description - delete an event from a calendar
+Primary actor - Manager.
+
+Use Case ID - move project start date.
+Description - moves the start of the initial task of the project, moving the rest of the tasks the same number of days(minding holidays and weekends)  
+Primary actor - Manager.
+
+Use Case ID - Events.
+Description - a date that can be described by specifying it
+Primary actor - Manager.
+
+Use Case ID - holidays.
+Description - specified event when the day is an holiday
+Primary actor - Manager.
+
+Use Case ID - neutral.
+Description - specified event when the day is a neutral day
+Primary actor - Manager.
+
+Use Case ID - working.
+Description - specified event when the day is a working day
+Primary actor - Manager.
